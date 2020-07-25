@@ -1,21 +1,16 @@
-<?php  
-	
+<?php
+
 
 	/**
-	 * Database connection 
+	 * Database connection
 	 */
 
-	$host = 'localhost'; 
+	$host = 'localhost';
 	$user = 'root';
 	$pass = '';
 	$db = 'ac';
 
-	$connection = new mysqli($host, $user, $pass, $db);
-
-
-
-
-
+	$connection = new mysqli($host, $user,$pass,$db);
 
 
 
